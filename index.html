@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="bg-[#121212] flex justify-center items-center min-h-screen">
+    <div class="bg-[#BB86FC] flex flex-col gap-10 justify-center items-center rounded-lg border-[#52bed1] border-solid border-2 max-w-sm w-full p-4" >
+        <h2 class="text-[#fff] font-bold" style="font-size: 30px;">Login</h2>
+        <form class="flex flex-col gap-10 justify-center items-center">
+            <div class="mb-4 w-full">
+                <label for="email" class="text-[#E0E0E0] font-medium block mb-2 cursor-pointer">Email:</label>
+                <input type="email" name="email" class="rounded-md p-2 w-full focus:outline-none transform transition-transform duration-300 ease-in-out hover:scale-110 hover:shadow-lg" placeholder="Email">
+            </div>
+            <div>
+                <label for="password" class="text-[#E0E0E0] mb-8 cursor-pointer">Password:</label>
+                <input type="password" class="focus:outline-none rounded-md w-full p-2 transform transition-transform duration-300 ease-in-out hover:scale-110 hover:shadow-sm" name="password" placeholder="password">
+            </div>
+            <button type="submit" class="bg-[#03DAC6] text-[#E0E0E0]border-[#CF6679] rounded-md w-full py-0 transform transition-transform duration-300 ease-in-out hover:scale-110 hover:shadow-lg hover:bg-[#731dbe] hover:text-[#fff]">Login</button>
+        </form>
+    </div>
+</body>
+</html>
